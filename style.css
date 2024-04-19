@@ -1,4 +1,5 @@
 :root {
+    font-size: 14px;
     /* primary */
     --dark-blue-intro: hsl(217, 28%, 15%);
     --dark-blue-main: hsl(218, 28%, 13%);
@@ -17,6 +18,49 @@
 }
 
 body {
+    font-family: "Raleway", sans-serif;
     background-color: var(--dark-blue-intro);
     color: var(--white);
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav {
+    display: flex;
+} 
+
+.header-nav-list {
+    display: flex;
+    gap: 1em;
+}
+
+.nav-list-item {
+    font-size: 1rem;
+}
+
+.profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
 }
