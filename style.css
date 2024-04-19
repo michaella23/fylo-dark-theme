@@ -19,8 +19,9 @@
 
 body {
     font-family: "Raleway", sans-serif;
-    background-color: var(--dark-blue-intro);
+    background-color: var(--dark-blue-main);
     color: var(--white);
+    
 }
 
 img {
@@ -37,11 +38,19 @@ a {
     text-decoration: none;
 }
 
+.center {
+    text-align: center;
+}
+
 .flex {
     display: flex;
 }
 
 header {
+    background-color: var(--dark-blue-intro);
+}
+
+.header {
     display: flex;
     justify-content: space-between;
 }
@@ -59,8 +68,20 @@ header {
     font-size: 1rem;
 }
 
+.testimonial {
+    background-color: var(--dark-blue-testimonial);
+}
+
 .profile-pic {
     width: 30px;
     height: 30px;
     border-radius: 50%;
+}
+
+footer {
+    background-color: var(--dark-blue-footer);
+}
+
+.sign-up {
+    background-color: var(--dark-blue-main);
 }
